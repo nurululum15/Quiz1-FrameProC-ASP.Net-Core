@@ -1,0 +1,374 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/*halaman profile*/
+.section5 .container {
+    display: flex;
+    padding: 0vh 10px 10vh 10px;
+}
+
+.section5 .teks {
+    background-color: #d94c4c;
+    color: rgb(250, 255, 240);
+    border-radius: 0px 0px 25px 0px;
+    padding: 3%;
+}
+
+.section5 img {
+    width: 45%;
+    /* height: 0%; */
+}
+
+.section5 .nama {
+    font-size: 2vw;
+}
+
+.section5 p {
+    font-size: 1vw;
+    text-align:justify;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.section5 .tombol {
+    text-align:justify;
+    padding-top: 0.5vh;
+}
+
+/*.section5 .tombol1 {
+    text-align: center;
+    padding-bottom: 15vh;
+    padding-top: 5vh;
+}*/
+
+.section5 .btn {
+    border: 2px solid white;
+    color: aliceblue;
+    border-radius: 25px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    background: none;
+    cursor: pointer;
+}
+
+/*.section5 .btn1 {
+    border: 2px solid white;
+    color: rgb(250, 255, 240);
+    border-radius: 25px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    background: #252513;
+    cursor: pointer;
+    font-weight: bolder;
+}*/
+
+.judul {
+    color: #d94c4c;
+    font-size: 3vw;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+/*--------------------------------*/
+
+/*Company pages*/
+.section4 .container {
+    display: flex;
+    padding: 0vh 10px 5vh 10px;
+}
+
+.section4 .teks {
+    border: 5px solid;
+    border-color: #d94c4c;
+    /*background-color: #d94c4c;*/
+    color: #d94c4c;
+    /*rgb(250, 255, 240)*/ 
+    border-radius: 25px 0px 0px 25px;
+    padding: 3%;
+}
+
+.section4 img {
+    width: 40%;
+    /* height: 0%; */
+}
+
+.section4 .nama {
+    font-size: 2vw;
+}
+
+.section4 p {
+    font-size: 1vw;
+    font-weight:bolder;
+    text-align: justify;
+    padding-top: 2%;
+    /*padding-bottom: 2%;*/
+}
+
+.section4 .tombol {
+    text-align: justify;
+    padding-top: 0.5vh;
+}
+
+/*.section5 .tombol1 {
+    text-align: center;
+    padding-bottom: 15vh;
+    padding-top: 5vh;
+}*/
+
+.section4 .btn {
+    border: 2px solid;
+    color: aliceblue;
+    border-radius: 25px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    background-color: #d94c4c;
+    cursor: pointer;
+}
+
+/*.section5 .btn1 {
+    border: 2px solid white;
+    color: rgb(250, 255, 240);
+    border-radius: 25px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    background: #252513;
+    cursor: pointer;
+    font-weight: bolder;
+}*/
+
+.judul1 {
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.ket {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-content:center;
+    align-items:flex-start;
+    /*padding: 30px;*/
+}
+
+    .ket .icon {
+        color: #d94c4c;
+        font-size: 2vw;
+    }
+
+    .ket .icon .text {
+        font-size: 1vw;
+        font-weight: bolder;
+        font-style: normal;
+    }
+
+/*---------------------*/
+
+
+
+/*Collaboration pages*/
+.judul2 {
+    color: black;
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#collaboration .collaboration-item {
+    max-width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--------------------*/
+
+/*Product pages*/
+.page-section {
+    padding: 1rem 0;
+}
+
+    .page-section h1.section-heading, .page-section .section-heading.h2 {
+        font-size: 3vw;
+        font-weight: 500;
+        color: #d94c4c;
+        /*padding-top: 2%;*/
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .page-section h3.section-subheading, .page-section .section-subheading.h3 {
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: italic;
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        margin-bottom: 2rem;
+    }
+
+#product .product-item {
+    max-width: 23rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #product .product-item .product-caption {
+        padding: 1rem;
+        text-align: center;
+       /* background-color: #fff;*/
+    }
+
+        #product .product-item .product-caption .product-caption-heading {
+            font-size: 1.5rem;
+            font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        #product .product-item .product-caption .product-caption-subheading {
+            font-style: italic;
+            font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+/*.portfolio-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+}
+
+.portfolio-modal .modal-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+    .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .portfolio-modal .modal-content p.item-intro {
+        font-style: italic;
+        margin-bottom: 2rem;
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .portfolio-modal .modal-content p {
+        margin-bottom: 2rem;
+    }
+
+    .portfolio-modal .modal-content ul.list-inline {
+        margin-bottom: 2rem;
+    }
+
+    .portfolio-modal .modal-content img {
+        margin-bottom: 2rem;
+    }
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+    .portfolio-modal .close-modal:hover {
+        opacity: 0.3;
+    }*/
+
+/*------------------*/
+
+
+
+.welcome {
+    font-weight:bolder;
+}
+
+/*header {
+   background-color: #c28132;
+}*/
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.home p {
+    color:#d94c4c;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
